@@ -247,7 +247,7 @@ if st.button("Start Simulation"):
     plotly_random_signal.update_layout(
         xaxis_title="Frequency [Hz]",
         yaxis_title="Power",
-        title="Mirroring and sqrt",
+        title="Random Phase Seed Number",
         xaxis=dict(showgrid=True),
         yaxis=dict(showgrid=True)
     )
