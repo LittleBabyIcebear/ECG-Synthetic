@@ -383,8 +383,8 @@ if st.button("Start Simulation"):
     plotly_output.add_trace(go.Scatter(x=i/fecg, y=output, mode='lines', line=dict(color='green')))
     # Customize the layout
     plotly_output.update_layout(
-        xaxis_title="Time [second]",
-        yaxis_title="Voltage [mV]",
+        xaxis_title="Time [Second]",
+        yaxis_title="Voltage [Volts]",
         title="ECG Synthetic",
         xaxis=dict(showgrid=True),
         yaxis=dict(showgrid=True)
