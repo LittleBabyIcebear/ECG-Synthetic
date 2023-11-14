@@ -67,10 +67,10 @@ if mode_ecg == "PVC":
         input_ti_s_modif = st.number_input("Modif Teta S" ,value=-105)
         input_ti_t_modif = st.number_input("Modif Teta T" ,value=-30)
     with colom2:
-        input_ai_p_modif = st.number_input("Modif a P" ,value=0)
-        input_ai_q_modif = st.number_input("Modif a Q" ,value=5)
-        input_ai_r_modif = st.number_input("Modif a R" ,value=5)
-        input_ai_s_modif = st.number_input("Modif a S" ,value=5)
+        input_ai_p_modif = st.number_input("Modif a P" ,value=0.0)
+        input_ai_q_modif = st.number_input("Modif a Q" ,value=5.0)
+        input_ai_r_modif = st.number_input("Modif a R" ,value=5.0)
+        input_ai_s_modif = st.number_input("Modif a S" ,value=5.0)
         input_ai_t_modif = st.number_input("Modif a T" ,value=-0.75)
     with colom3:
         input_bi_p_modif = st.number_input("Modif b P" ,value=0.25)
